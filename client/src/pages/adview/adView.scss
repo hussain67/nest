@@ -1,0 +1,25 @@
+.ad-view {
+	.carousal {
+		width: 80vw;
+	}
+	.info {
+		@media (min-width: 768px) {
+			display: grid;
+			gap: 25px;
+			grid-template-columns: 1fr 1.5fr;
+		}
+		&-update {
+			margin-top: 15px;
+			margin-bottom: 20px;
+			display: flex;
+			justify-content: space-between;
+		}
+		&-main {
+			max-width: 350px;
+		}
+		&-btn-delete {
+			background-color: red;
+			border-color: red;
+		}
+	}
+}
